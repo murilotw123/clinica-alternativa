@@ -1,0 +1,125 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*css do cabeçalho */
+header{
+	background: url("bg12.jpg");
+	padding: 20px 0;
+}
+.logo{
+	width: 30%;
+	height:30%;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li{
+	display: inline;
+	margin:  0 0 0 15px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+nav a:hover{
+	color: #c78c19;
+	text-decoration: underline;
+}
+
+/*css da pagina inicial*/
+.titulob {
+	text-align: center;
+	font-size: 2em ;
+	font-weight: bold;
+	margin: 0 0 1em;
+
+}
+.subtitulo{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+.principal{
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto
+}
+.principal p {
+	margin: 0 0 1em;
+}
+.principal strong {
+font-weight: bold;
+}
+.principal em{
+	font-style: italic;
+}
+.mapa{
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE , #FFF0F5 );
+
+}
+.mapa-conteudo{
+	width: 940px;
+	margin: 0 auto;
+}
+.mapa p {
+	padding: 0 0 2em 0;
+	text-align: center;
+}
+.beach-bronze{
+	padding: 3em 0;
+	background:#FFF0F5;
+}
+
+.conteudo-bistro{
+	width: 940px;
+	margin: 0 auto;
+
+}
+.conteudo-bronze{
+	width: 940px;
+	margin: 30px auto
+}
+.logo-rodape{
+	height: 20%;
+	width: 20%;
+}
+
+footer{
+	text-align: center;
+	background: url("bg12.jpg");
+	padding: 40px 0;.
+}
+
+
+
+@media screen and (max-width:480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .titulob {
+		width: auto;
+	}
+	h1 {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .beneficiosimg{
+		width: 100%;
+	}
+	footer{
+		
+	}
+}
