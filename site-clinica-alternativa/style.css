@@ -98,13 +98,11 @@ font-weight: bold;
 	width: 20%;
 }
 
-footer{
+.footer{
 	text-align: center;
 	background: url("bg12.jpg");
-	padding: 40px 0;.
+	padding: 40px 0;
 }
-
-
 
 @media screen and (max-width:480px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .titulob {
@@ -118,8 +116,5 @@ footer{
 	}
 	.lista-beneficios, .beneficiosimg{
 		width: 100%;
-	}
-	footer{
-		
 	}
 }

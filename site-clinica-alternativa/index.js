@@ -1,0 +1,1 @@
+alert("Clinica alternatica teste 1")
